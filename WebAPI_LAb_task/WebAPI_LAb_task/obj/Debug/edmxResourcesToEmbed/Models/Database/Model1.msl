@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Labtask_finalModelStoreContainer" CdmEntityContainer="Labtask_finalEntities">
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="Labtask_finalModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="Deptid" ColumnName="Deptid" />
+          <ScalarProperty Name="Deptname" ColumnName="Deptname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="Labtask_finalModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Stid" ColumnName="Stid" />
+          <ScalarProperty Name="St_name" ColumnName="St_name" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Deptid" ColumnName="Deptid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
